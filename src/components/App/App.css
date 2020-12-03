@@ -1,0 +1,79 @@
+.header{
+    height: 300px;
+}
+
+.home{
+    margin: auto;
+    width: 65%;
+}
+
+.pages{
+    margin: auto;
+    width: 65%;
+}
+
+.tileList{
+    padding: 50px 0 0 0;
+    flex-wrap: wrap;
+    width: 80vw;
+}
+
+.img{
+    width: 100%;
+    height: auto;
+    padding: 20px 0 0 0;
+}
+
+.graphTitles{
+    display: flex;
+    padding: 30px 0 0 0;
+}
+
+.sideImages{
+    width: 65%;
+}
+.sideImg{
+    display: flex;
+}
+
+.sectionTitle{
+    color: white;
+}
+
+.caption{
+    color:white;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: .75px;
+}
+
+.list{
+    color: white;
+    letter-spacing: .75px;
+    padding: 0 0 0 40px;
+    font-size: 16px;
+    line-height: 150%;
+    list-style-type: decimal;
+}
+
+.aboutList{
+    color: white;
+    letter-spacing: .75px;
+    padding: 0 0 0 40px;
+    font-size: 16px;
+    line-height: 150%;
+    list-style-type: disc;
+}
+
+.text{
+    color: white;
+    letter-spacing: .75px;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.videos{
+    width: 100%;
+    height: auto;
+
+}

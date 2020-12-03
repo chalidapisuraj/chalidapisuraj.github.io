@@ -1,0 +1,37 @@
+.content{
+    padding: 30px 0 0 0;
+}
+
+.sectionTitle{
+    color: white;
+    font-size: 26px;
+    display: flex;
+}
+
+.mainBody{
+    color: white;
+    letter-spacing: .75px;
+}
+
+.dash{
+    display: flex;
+}
+
+.intro {
+    padding: 0 0 0 0;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.para{
+    font-size: 16px;
+    line-height: 150%;;
+}
+
+
+@media all and (min-width: 1170px){
+    .content{
+        margin: 0;
+        padding: 60px 0 0 0;
+    }
+}

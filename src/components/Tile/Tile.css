@@ -1,0 +1,33 @@
+.tile{
+    flex-wrap: wrap;
+    margin: 20px 30px 0 0; 
+    display: inline-block;
+}
+
+.tile:hover{
+  -ms-transform: scale(1.05); 
+  -webkit-transform: scale(1.05); 
+  -webkit-filter: brightness(110%); 
+  transform: scale(1.05); 
+}
+
+.image-container{
+    flex-wrap: wrap;
+}
+
+.picture{
+    width: 200px;
+    height: auto;
+}
+
+.name{
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.name:hover{
+    color:white;
+    text-decoration: none;
+}
