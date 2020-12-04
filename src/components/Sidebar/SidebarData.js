@@ -4,12 +4,12 @@ import * as IoIcons from 'react-icons/io';
 export const SidebarData = [
     {
         title: 'Home',
-        path: '/chalidapisuraj-react',
+        path: '/',
         cName: 'nav-text',
     },
     {
         title: 'Tinder Case Study',
-        path: '/chalidapisuraj-react/tinder-case-study',
+        path: '/tinder-case-study',
         cName: 'nav-text',
         name: "Tinder Case Study", 
         imgSrc: require('../images/Tinder.png')
