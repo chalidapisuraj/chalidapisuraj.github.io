@@ -42,12 +42,18 @@ class Tinder extends React.Component{
                 dashColor = "#f74f73"
                 hasDash = "—"
                 intro ="The 5 categories I chose to focus on were: time of day, cost, duration, distance, and general type of activities the user is interested in. I examined Tinder's interface and design choices and tried to integrate it into my own design. For the Settings, the same sliding scale mechanism is used with the addition of buttons to grey out activities upon selection. Icons were chosen to parallel the styles seen in the current in-chat features."
-                first ="Below are the designs I made through Adobe XD. I utilized Tinder's color gradient themes seen in the recently added Prompts feature to suggest dates in a particular category. Beneath would be specific suggestion that best fit both their preferences. Each suggestion is equipped with basic information of the location and a Suggest button."
                 />
                 <div className="sideImages">
-                    <img className="sideImg" src={require('../images/tinder_draft_3.png')} />
-                    <img className="sideImg" src={require('../images/tinder_draft_4.png')}/>
+                    <img className="img" src={require('../images/tinder_draft_3.png')} />
+                    <img className="img" src={require('../images/tinder_draft_4.png')}/>
                 </div>
+                <p className="caption">Sketches and early mockups</p>
+                <Body 
+                title = "High Fidelity Designs"
+                dashColor = "#f74f73"
+                hasDash = "—"
+                first ="Below are the designs I made through Adobe XD. I utilized Tinder's color gradient themes seen in the recently added Prompts feature to suggest dates in a particular category. Beneath would be specific suggestion that best fit both their preferences. Each suggestion is equipped with basic information of the location and a Suggest button."
+                />
                 <img className="img" src={require('../images/tinder_3.png')}/>
                 <img className="img" src={require('../images/tinder_4.png')}/>
                 <Body 

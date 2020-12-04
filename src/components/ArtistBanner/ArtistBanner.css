@@ -1,6 +1,9 @@
 .artistBanner{
- border: 3px solid red;
+    padding-bottom: 50px;
+}
 
+.section{
+    padding-top: 50px;
 }
 
 .artist{
@@ -8,13 +11,20 @@
   font-size: 14px;
   letter-spacing: 1px;
   margin: 0;
-  padding: 50px 0 0 0;
+  padding: 50px 10px 0 10px;
+  display: inline;
 }
 
-.artist{
+.verified{
+    width: auto;
+    height: 10px;
+}
+
+.name{
     color: white;
-    font-size: 50px;
+    font-size: 80px;
     margin: 0;
+    padding: 0 0 20px 0;
 }
 
 .resume{
@@ -40,6 +50,18 @@
 .resumeText, .resumeText:hover{
     color: white;
     text-decoration: none;
+}
+
+.icons{
+    height: 35px;
+    width: auto;
+    padding: 0 10px 0 10px; 
+}
+
+.icons:hover{
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.04); 
 }
 
 @media all and (min-width: 1170px) {

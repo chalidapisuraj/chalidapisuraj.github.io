@@ -2,6 +2,7 @@ import React from 'react'
 import '../App/App.css';
 import {SidebarData} from '../Sidebar/SidebarData';
 import Banner from '../Banner/Banner';
+import ArtistBanner from '../ArtistBanner/ArtistBanner';
 import Body from '../Body/Body';
 
 class AboutMe extends React.Component{
@@ -9,30 +10,25 @@ class AboutMe extends React.Component{
         let item = SidebarData.find(item => item.title === "About Me");
         return (
             <div className='pages'>
-                <Banner 
-                imageSrc = {item.imgSrc}
-                thisIs = "Chalida Pisuraj"
-                descript= "Fun fact: My legal name is a combination of my siblings' names. Charlie + Tida = Chalida! Chalida also happens to be a fairly uncommon Thai name."
-                />
-                <Body 
-                title = 'Hello!'
-                dashColor = " #00ba61"
-                hasDash = "—"
-                intro = "I am a recent UC Irvine grad with a B.S. in Computer Science & Engineering (porque no los dos, right?). During my years in college and through my internships, I have come to love designing and front-end development. I am always looking for all sorts of technical roles because I am firm believer of the saying, 'Don't knock it till you try it!'"
-               
-                />
-                <p className="text">Some things I enjoy/care about outside of work are:</p>
-                <ol className="aboutList">
-                    <li>Finding the best birria tacos</li>
-                    <li>Donating blood (I am closing in on 2 gallons!)</li>
-                    <li>Botanical gardens</li>
-                    <li>Stationery</li>
-                    <li>Believing that life is too short not to indulge in the food you want</li>
-                    <li>Formula 1 racing and basketball</li>
-                    <li>College students discounts</li>
-                </ol>
+                <ArtistBanner /> 
+                <h4 className="aboutSection">Image Gallery</h4>
+                <img className="gallery" src={require('../images/about.png')} />
+                <h4 className="aboutSection">Bio</h4>
+                <p className="text">
+                    Hello! I am a recent Computer Science & Engineering grad located in Sunnyvale, CA.
+                    I am interested in roles pertaining to software engineering, UI/UX design or research, and technical program management. Willing to relocate anywhere.
+                    This is my 3rd iteration of my personal website. This most current version is based on React. 
+                    Feel free to check it out through my <a href="https://github.com/chalidapisuraj/chalidapisuraj.github.io">GitHub link</a> above. 
+                </p>
+                <p className="text">
+                    My website is created based on my love for music and for Spotify as a platform. 
+                    I am a believer that you can tell a bit about a person through their music. 
+                    Their organizational skills, creativity, and taste can be seen by how they build their playlist, what they name it and what is in it. 
+                    Spotify's UI/UX and iconic design palette was the inspiration. Having consulted Spotify's Branding Guidelines, I aimed to give a faithful spin to the platform.
+                    So please check out my "playlists" and dive in a little further than my resume can provide. 
+                </p>
                 <p className="text">Feel free to contact me at: <strong>bee.pisu@gmail.com</strong></p>
-                <img className="img" src = {require('../images/about_4.png')}/>
+                <Body />
                 
             </div>
         )
