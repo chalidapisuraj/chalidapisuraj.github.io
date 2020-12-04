@@ -9,7 +9,7 @@ export const SidebarData = [
     },
     {
         title: 'Tinder Case Study',
-        path: '/tinder-case-study',
+        path: '/chalidapisuraj-react/tinder-case-study',
         cName: 'nav-text',
         name: "Tinder Case Study", 
         imgSrc: require('../images/Tinder.png')
