@@ -2,7 +2,7 @@
   "name": "react-revamp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://chalidapisuraj.github.io/chalidapisuraj-react",
+  "homepage": "http://chalidapisuraj.github.io/react",
   "dependencies": {
     "-": "0.0.1",
     "@testing-library/jest-dom": "^4.2.4",
