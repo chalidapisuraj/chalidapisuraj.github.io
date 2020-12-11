@@ -1,3 +1,7 @@
+.banner{
+    padding-bottom: 50px;
+}
+
 .feature{
     height: 240px;
     width: auto;
@@ -32,12 +36,13 @@
     background-color: #1DB954;
     border: none;
     padding: 10px 40px; 
+    margin: 10;
     text-align: center;
     text-decoration: none;
     font-size: 12px;
     letter-spacing: 1px;
     border-radius: 200px; 
-    
+    float: left;
 }
 
 .resume:hover{
@@ -50,6 +55,10 @@
 .resumeText, .resumeText:hover{
     color: white;
     text-decoration: none;
+}
+
+.iconList{
+    float: left;
 }
 
 .icons{
@@ -70,4 +79,13 @@
         background-color: #a0a0a0;
         background-image: linear-gradient(0deg,#1c1c1c,#3e3e3e);
     }
+
+}
+
+@media all and (max-width: 460px){
+    .iconList{
+        padding: 20px 0 0 0;
+    }
+
+  
 }
