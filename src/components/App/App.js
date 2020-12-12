@@ -18,11 +18,12 @@ import SideProject from '../pages/SideProjects';
 // Honestly a great first effort <3. I'll keep reviewing and testing it to see if I can make suggestions in my freetime
 // Feel free to hit me up if you're stuck somewhere or somethings not working. I would have fun debugging with you over video chat!
 // Hope these comments are helpful! I'll continue to make more! -- Chris S. :)
-
-const [shouldShowSidebar, setShouldShowSidebar] = useState(false);
+const shouldShowSidebar = true;
 
 class App extends React.Component {
   render(){
+    //const [shouldShowSidebar, setShouldShowSidebar] = useState(false); Okay nevermind, this only works if you use a functional component lol
+
     return (
     <div className ="App">
       <div className="header">

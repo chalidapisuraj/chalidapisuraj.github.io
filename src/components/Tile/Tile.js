@@ -1,4 +1,5 @@
 import React from 'react';
+import { Redirect } from 'react-router-dom';
 import './Tile.css';
 
 
@@ -18,7 +19,7 @@ class Tile extends React.Component {
                     The simplest solution for now could be to add an onClick handler that 
                     does <Redirect to='/path' />
                     */}
-                <a className="tileName" href={this.props.path}>{this.props.name}</a>
+                <a className="tileName" onclick={() => <Redirect to={this.props.path}/>}>{this.props.name}</a>
             </div>
         )
     }
