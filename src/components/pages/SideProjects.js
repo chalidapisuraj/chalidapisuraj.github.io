@@ -21,7 +21,7 @@ class SideProject extends React.Component{
                 intro="Working with a team of Google Engineers and a Facebook Data Scientist, I started to design some sample pages for a Virtual Marketplace. The app is meant to gather small/home businesses and streamline direct connections with their supporters."
                 first="Designed using Adobe XD."
                 />
-                <img className="img" src={require('../images/market_1.png')}/>
+                <img className="img" src={require('../images/market_1.png')}/> {/*Gentle reminder about importing images at top level of file :)*/}
                 <img className="img" src={require('../images/market_2.png')}/>
                 <Body 
                 title = 'Remote Soil Monitoring Robot'
@@ -31,7 +31,7 @@ class SideProject extends React.Component{
                 />
                 <p className="text">If you are intrigued at this research, you can read more about it <a href={require('../images/SeniorDesign.pdf')}>here</a>.</p>
                 <video className="videos" muted controls autostart autoPlay src={require('../images/SeniorDesign.mp4')} type="video/mp4" />
-                <Body />
+                <Body /> {/* Is this empty body intentional?*/}
             </div>
         )
     }

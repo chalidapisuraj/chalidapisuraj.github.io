@@ -14,6 +14,7 @@ class AboutMe extends React.Component{
                 <h4 className="aboutSection">Image Gallery</h4>
                 <img className="gallery" src={require('../images/about.png')} />
                 <h4 className="aboutSection">Bio</h4>
+                {/*The way you formatted this is the way you'll want to format the strings in CoreLogic.js*/}
                 <p className="text">
                     Hello! I am a recent Computer Science & Engineering grad located in Sunnyvale, CA.
                     I am interested in roles pertaining to software engineering, UI/UX design or research, and technical program management. Willing to relocate anywhere.

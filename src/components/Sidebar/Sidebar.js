@@ -7,8 +7,15 @@ import {SidebarData} from './SidebarData';
 import {IconContext} from 'react-icons';
 import {tiles} from '../pages/Home';
 
-
+// This feels like it should be a component, right?
+// Sidebar.js makes me expect a Sidebar component. 
 function Navbar(){
+    //Ahh so this useState is only meant to toggle the sidebar.
+    //If this was a component, its a bit more natural to show/hide.
+    
+    //What's actually cleaner, is to use a css property (display: block/none) to show/hide the sidebar
+    // If you prefer inline-styling, style={{ display: shouldShowSidebar ? 'block' : 'none' }}
+    // Checkout styled-components btw!! They're pretty slick at applying css styling to common components :)
     const [sidebar, setSidebar] = useState(true);
     const showSideBar = ()=> setSidebar(!sidebar);
     return (

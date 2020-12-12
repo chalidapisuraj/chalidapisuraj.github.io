@@ -8,6 +8,8 @@ class CoreLogic extends React.Component{
     render(){
         let item = SidebarData.find(item => item.title === "CoreLogic Internship");
         return(
+            // Okay for here, great start! You're passing pretty long strings as props into the individual components.
+            // You'll want to run a linter (like ESlint) to help you format the string so it will be easier to edit :) 
             <div className='pages'>
                 <Banner 
                 imageSrc = {item.imgSrc}
@@ -20,7 +22,7 @@ class CoreLogic extends React.Component{
                 hasDash = "—"
                 intro = "Some of the projects I did included building an automated HTTP header scanner, creating phishing awareness campaigns, and desiging e-learning training courses."
                 />
-                <img className="img" src = {require('../images/core_1.png')}/>
+                <img className="img" src = {require('../images/core_1.png')}/> {/*Recommendation: bring the file path to the top of the file and do (import CoreImageStrip from '../images/core_1.png';) You can rename the image to be explicit to what its importing :)*/}
                 <Body 
                 title = 'Internship Highlight'
                 dashColor = "#FF1616"

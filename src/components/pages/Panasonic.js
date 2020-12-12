@@ -7,6 +7,7 @@ import Body from '../Body/Body';
 class Panasonic extends React.Component{
     render(){
         let item = SidebarData.find(item => item.title === "Panasonic Internship");
+
         return(
             <div className='pages'>
                 <Banner 
