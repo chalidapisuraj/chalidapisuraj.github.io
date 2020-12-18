@@ -1,7 +1,6 @@
-import React, { Component } from 'react'; 
+import React, { Component, useState } from 'react'; 
 import './App.css';
 import Navbar from '../Sidebar/Sidebar';
-import Banner from '../Banner/Banner';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Home from '../pages/Home';
 import AboutMe from '../pages/AboutMe';
@@ -9,14 +8,9 @@ import Tinder from '../pages/Tinder';
 import Panasonic from '../pages/Panasonic';
 import CoreLogic from '../pages/CoreLogic';
 import SideProject from '../pages/SideProjects';
-//import 'bootstrap/dist/css/bootstrap.min.css'
 
 
-//import logo from './logo.svg';
-
-
-
-
+const shouldShowSidebar = true;
 class App extends React.Component {
   render(){
     return (
@@ -24,6 +18,7 @@ class App extends React.Component {
       <div className="header">
         <Router>
           <Navbar />
+          {shouldShowSidebar && <Navbar />}
             <Switch>
               <Route path='/' exact component={Home}/>
               <Route path='/about-me' exact component={AboutMe}/>
