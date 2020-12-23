@@ -8,7 +8,7 @@ class Tile extends React.Component{
         return(
             <div className="tile">
                 <div className="image-container">
-                    <a href={this.props.path}><img className="picture" src={this.props.tileImageSrc} /></a>
+                    <a onclick={() => <Redirect to={this.props.path}/>}><img className="picture" src={this.props.tileImageSrc} /></a>
                 </div>
                 <a className="tileName" onclick={() => <Redirect to={this.props.path}/>}>{this.props.name}</a>
             </div>
