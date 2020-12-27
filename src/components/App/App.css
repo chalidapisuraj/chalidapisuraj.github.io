@@ -93,3 +93,9 @@
     line-height: 150%;
     list-style-type: disc;
 }
+
+@media all and (max-width: 460px){
+    .firstSection{
+        padding: 30px 0 0 0;
+    }
+}

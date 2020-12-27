@@ -14,12 +14,14 @@ class CoreLogic extends React.Component{
                 thisIs = "My CoreLogic Internship"
                 descript= "CoreLogic Information Security Intern from June 2018 to December 2018. I interned as part of the Technology Solutions Group."
                 />
-                <Body 
-                title = 'CoreLogic HQ @ Irvine, CA'
-                dashColor = "#FF1616"
-                hasDash = "—"
-                intro = "Some of the projects I did included building an automated HTTP header scanner, creating phishing awareness campaigns, and desiging e-learning training courses."
-                />
+                <div className= "firstSection">
+                    <Body 
+                    title = 'CoreLogic HQ @ Irvine, CA'
+                    dashColor = "#FF1616"
+                    hasDash = "—"
+                    intro = "Some of the projects I did included building an automated HTTP header scanner, creating phishing awareness campaigns, and desiging e-learning training courses."
+                    />
+                </div>
                 <img className="img" src = {require('../images/core_1.png')}/>
                 <Body 
                 title = 'Internship Highlight'

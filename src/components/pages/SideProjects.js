@@ -14,13 +14,15 @@ class SideProject extends React.Component{
                 thisIs = "My Side Project"
                 descript= "This is a budding collection of side projects and experiments that I dabble in for fun in and outside of school! Feel free to take a look as I add more to this page :)"
                 />
-                <Body 
-                title = 'Virtual Marketplace App Design'
-                dashColor = "#4B6CF8"
-                hasDash = "—"
-                intro="Working with a team of Google Engineers and a Facebook Data Scientist, I started to design some sample pages for a Virtual Marketplace. The app is meant to gather small/home businesses and streamline direct connections with their supporters."
-                first="Designed using Adobe XD."
-                />
+                <div className= "firstSection">
+                    <Body 
+                    title = 'Virtual Marketplace App Design'
+                    dashColor = "#4B6CF8"
+                    hasDash = "—"
+                    intro="Working with a team of Google Engineers and a Facebook Data Scientist, I started to design some sample pages for a Virtual Marketplace. The app is meant to gather small/home businesses and streamline direct connections with their supporters."
+                    first="Designed using Adobe XD."
+                    />
+                </div>
                 <img className="img" src={require('../images/market_1.png')}/>
                 <img className="img" src={require('../images/market_2.png')}/>
                 <Body 

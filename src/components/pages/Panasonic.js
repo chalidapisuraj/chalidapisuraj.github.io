@@ -14,13 +14,15 @@ class Panasonic extends React.Component{
                 thisIs = "My Panasonic Internship"
                 descript= "Panasonic Avionics Web Development Intern from October 2019 to April 2020. Unfortunately cut short due to the COVID-19 pandemic."
                 />
-                <Body 
-                title = 'Panasonic Avionics HQ @ Lake Forest, CA'
-                dashColor = "#0056aa"
-                hasDash = "—"
-                intro = "I interned as part of the Technical Services team. Some of the activities I did included creating content using the Adobe Creative Cloud, creating Python scripts to help automate the training audit process, and using Linux to help streamline data transfer from IFE (In-Flight Entertainment) racks."
-                first = "My most favorite experience was conducting a user experience/journey research for an internal mobile application resulting in a complete change in direction, due to previous misconception. See below!  ↓"
-                />
+                <div className= "firstSection">
+                    <Body 
+                    title = 'Panasonic Avionics HQ @ Lake Forest, CA'
+                    dashColor = "#0056aa"
+                    hasDash = "—"
+                    intro = "I interned as part of the Technical Services team. Some of the activities I did included creating content using the Adobe Creative Cloud, creating Python scripts to help automate the training audit process, and using Linux to help streamline data transfer from IFE (In-Flight Entertainment) racks."
+                    first = "My most favorite experience was conducting a user experience/journey research for an internal mobile application resulting in a complete change in direction, due to previous misconception. See below!  ↓"
+                    />
+                </div>
                 <img className="img" src = {require('../images/panasonic_highlight.png')}/>
                 <Body 
                 title = "Internship Highlight"

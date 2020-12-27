@@ -15,14 +15,15 @@ class Tinder extends React.Component{
                 thisIs = "My Tinder Case Study"
                 descript = "I created an in-app date activity suggestion feature tailored to each match based on participants metadata. This was designed using Adobe XD and Figma."
                 />
-
-                <Body 
-                title = "Date Suggestion Feature"
-                dashColor = "#f74f73"
-                hasDash = "—"
-                intro = "We both swiped right and hopefully after some pleasant conversation there will be a date. Fingers crossed it's not something repetitive and generic."
-                first = "Coming up with a date idea that will impress can be a bit difficult. I wanted to create a feature that can suggest a date by utilizing the input of both parties while taking advantage of Tinder's geolocation data."
-                />  
+                <div className= "firstSection">
+                    <Body 
+                    title = "Date Suggestion Feature"
+                    dashColor = "#f74f73"
+                    hasDash = "—"
+                    intro = "We both swiped right and hopefully after some pleasant conversation there will be a date. Fingers crossed it's not something repetitive and generic."
+                    first = "Coming up with a date idea that will impress can be a bit difficult. I wanted to create a feature that can suggest a date by utilizing the input of both parties while taking advantage of Tinder's geolocation data."
+                    />  
+                </div>
                 <img className="img" src ={require('../images/tinder_preview2.png')} />
                 <Body 
                 title = "What makes a good date?"
