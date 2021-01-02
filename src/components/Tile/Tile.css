@@ -25,9 +25,10 @@
     font-weight: bold;
     color: white;
     text-decoration: none;
+    margin: 0;
 }
 
-.name:hover{
+.tileName:hover{
     color:white;
     text-decoration: none;
 }
