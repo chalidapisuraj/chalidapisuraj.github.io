@@ -1,0 +1,13 @@
+
+.previousAlbum{
+    height: 60px;
+    width: auto;
+    float: left;
+    padding-top: 50%;
+}
+
+.previousTitle{
+    color: white;
+    letter-spacing: .75px;
+    font-size: 16px;
+}

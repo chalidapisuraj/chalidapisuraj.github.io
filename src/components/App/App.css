@@ -36,6 +36,10 @@
     line-height: 150%;
 }
 
+.lastSection{
+    padding-bottom: 50px;
+}
+
 /* Home */
 
 .tileList{
@@ -92,6 +96,14 @@
     font-size: 16px;
     line-height: 150%;
     list-style-type: disc;
+}
+
+/* Footer */
+.bar{
+    background-color: #282828;
+    height: 100px;
+    width: 100%;
+    margin-top: 20px;
 }
 
 @media all and (max-width: 460px){

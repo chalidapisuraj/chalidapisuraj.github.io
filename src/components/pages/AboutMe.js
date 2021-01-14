@@ -1,9 +1,9 @@
 import React from 'react'
 import '../App/App.css';
 import {SidebarData} from '../Sidebar/SidebarData';
-import Banner from '../Banner/Banner';
 import ArtistBanner from '../ArtistBanner/ArtistBanner';
 import Body from '../Body/Body';
+
 
 class AboutMe extends React.Component{
     render(){
@@ -25,11 +25,11 @@ class AboutMe extends React.Component{
                     I am a believer that you can tell a bit about a person through their music. 
                     Their organizational skills, creativity, and taste can be seen by how they build their playlist, what they name it and what is in it. 
                     Spotify's UI/UX and iconic design palette was the inspiration. Having consulted Spotify's Branding Guidelines, I aimed to give a faithful spin to the platform.
-                    So please check out my "playlists" and dive in a little further than my resume can provide. 
+                    So please check out my "playlists" and dive in deeper to my resume. 
                 </p>
-                <p className="text">Feel free to contact me at: <strong>bee.pisu@gmail.com</strong></p>
-                <Body />
-                
+                <div className ="lastSection">
+                    <p className="text">Feel free to contact me at: <strong>bee.pisu@gmail.com</strong></p>
+                </div>
             </div>
         )
     }

@@ -1,17 +1,9 @@
 import React from 'react';
 import '../App/App.css';
 import Banner from '../Banner/Banner';
-import Body from '../Body/Body';
 import Tile from '../Tile/Tile';
 import {SidebarData} from '../Sidebar/SidebarData';
 
-export const tiles = [
-    {name: "Tinder Case Study", imgSrc: require('../images/Tinder.png'), path: require('../pages/Tinder')},
-    {name:"Panasonic Internship", imgSrc: require('../images/Panasonic.png'), path: require('../pages/Panasonic')},
-    {name: "CoreLogic Internship", imgSrc: require('../images/CoreLogic.png'), path: require('../pages/CoreLogic')},
-    {name: "About Me", imgSrc: require('../images/me.png'), path: require('../pages/AboutMe')},
-    {name: "Side Projects", imgSrc: require('../images/side.png'), path: require('../pages/SideProjects')}
-];
 
 class Home extends React.Component {
     render(){

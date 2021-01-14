@@ -4,6 +4,7 @@ import {SidebarData} from '../Sidebar/SidebarData';
 import Banner from '../Banner/Banner';
 import Body from '../Body/Body';
 
+
 class SideProject extends React.Component{
     render(){
         let item = SidebarData.find(item => item.title === "Side Projects");
@@ -32,8 +33,9 @@ class SideProject extends React.Component{
                 intro = "Imagine a GitHub contribution map but for water conservation and optimization. Sponsored by the undergraduate research program (UROP) and the Vice Chair of Undergraduate Studies of Computer Science."
                 />
                 <p className="text">If you are intrigued at this research, you can read more about it <a href={require('../images/SeniorDesign.pdf')}>here</a>.</p>
-                <video className="videos" muted controls autostart autoPlay src={require('../images/SeniorDesign.mp4')} type="video/mp4" />
-                <Body />
+                <div className ="lastSection">
+                    <video className="videos" muted controls autostart autoPlay src={require('../images/SeniorDesign.mp4')} type="video/mp4" />
+                </div>
             </div>
         )
     }

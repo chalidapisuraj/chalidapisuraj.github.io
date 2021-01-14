@@ -5,6 +5,7 @@ import Banner from '../Banner/Banner';
 import Body from '../Body/Body';
 import Iframe from 'react-iframe'
 
+
 class Tinder extends React.Component{
     render(){
         let item = SidebarData.find(item => item.title === "Tinder Case Study");
@@ -75,12 +76,13 @@ class Tinder extends React.Component{
                 hasDash = "—"
                 intro="As I continue to improve on this project, I would like to expand on the following questions:"
                 />
-                <ol className="list">
-                    <li>How would we suggest more activities?</li>
-                    <li>How much information should the suggestion provide?</li>
-                    <li>How many suggestions should be made in order to avoid the user feeling overwhelmed?</li>
-                </ol>
-                <Body />
+                <div className ="lastSection">
+                    <ol className="list">
+                        <li>How would we suggest more activities?</li>
+                        <li>How much information should the suggestion provide?</li>
+                        <li>How many suggestions should be made in order to avoid the user feeling overwhelmed?</li>
+                    </ol>
+                </div>
             </div>
         )
     }

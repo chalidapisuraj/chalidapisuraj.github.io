@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react'; 
+import React from 'react'; 
 import './App.css';
 import Navbar from '../Sidebar/Sidebar';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
@@ -10,7 +10,6 @@ import CoreLogic from '../pages/CoreLogic';
 import SideProject from '../pages/SideProjects';
 
 
-const shouldShowSidebar = true;
 class App extends React.Component {
   render(){
     return (
@@ -18,7 +17,6 @@ class App extends React.Component {
       <div className="header">
         <Router>
           <Navbar />
-          {shouldShowSidebar && <Navbar />}
             <Switch>
               <Route path='/' exact component={Home}/>
               <Route path='/about-me' exact component={AboutMe}/>
