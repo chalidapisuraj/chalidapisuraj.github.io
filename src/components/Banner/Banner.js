@@ -10,7 +10,7 @@ class Banner extends React.Component {
             <p className="playlist">PLAYLIST</p>
             <h2 className="thisIs">This Is {this.props.thisIs}</h2>
             <p className="info">{this.props.descript}</p>
-            <button className="resume"><a className="resumeText" href={require("../images/Chalida_Pisuraj_Resume-10232020.pdf")}> <b>RESUME</b> </a></button>
+            <button className="resume"><a className="resumeText" href={require("../images/Pisuraj_SW_Resume_012921.pdf")}> <b>RESUME</b> </a></button>
             <div className="iconList">
                 <a href="https://www.linkedin.com/in/chalida-pisuraj/"><img className="icons" src={require("../images/linkedin.svg")}/></a>
                 <a href="https://github.com/chalidapisuraj"><img className="icons" src={require("../images/github.svg")}/></a>

@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c5b9b27b02448be63dc1547ec1a54bc4",
+    "revision": "22a719c7dd08c69ace32481117b2883c",
     "url": "/index.html"
   },
   {
-    "revision": "57061c0da2ec843a8821",
+    "revision": "9919329c0b60fb98491d",
     "url": "/static/css/2.6414bb7b.chunk.css"
   },
   {
-    "revision": "70e1533268aa10d22b96",
+    "revision": "8ec06306f49f5eb3cda8",
     "url": "/static/css/main.0ed19d81.chunk.css"
   },
   {
-    "revision": "57061c0da2ec843a8821",
-    "url": "/static/js/2.e0165dc0.chunk.js"
+    "revision": "9919329c0b60fb98491d",
+    "url": "/static/js/2.476a0d2e.chunk.js"
   },
   {
     "revision": "dd207babaeb913476be46155cc504ef5",
-    "url": "/static/js/2.e0165dc0.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.476a0d2e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "70e1533268aa10d22b96",
-    "url": "/static/js/main.c9469c29.chunk.js"
+    "revision": "8ec06306f49f5eb3cda8",
+    "url": "/static/js/main.0acdcdeb.chunk.js"
   },
   {
     "revision": "8acade14f6ff4d58e068",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4541c860de41f92e69dfdc346f72f43b",
     "url": "/static/media/Panasonic.4541c860.png"
+  },
+  {
+    "revision": "973cc1ccd79a962d8fb24e7fd800c3b7",
+    "url": "/static/media/Pisuraj_SW_Resume_012921.973cc1cc.pdf"
   },
   {
     "revision": "60afb2c01fdd1117f7cd23d6f4669328",
